@@ -8,12 +8,233 @@
     <title>Order Pizza!</title>
   </head>
   <body>
+    <!-- header section -->
     <div class="jumbotron">
-      <h1>Fire Pepper Pizza</h1>
+      <h1>Pizza</h1>
     </div>
-
+    <!-- end header seciton -->
     <div class="container">
-      
+      <h2>Topping</h2>
+      <!-- input section -->
+      <div id="order">
+        <form>
+          <!-- topping choices section -->
+          <div class="row">
+            <div class="col-sm-3">  <!-- 1st topping -->
+              <h4>1st Topping</h4>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2" checked>Cheese
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2">Goat Cheese
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="3">Burrata
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="3">Truffle
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="3">Salmon
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="3">Shrimp
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2">Tometoes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2">Broccoli
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2">Artichoke
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2">Spinach
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="first" value="2">Anchovy
+                </label>
+              </div>
+            </div>  <!-- end 1st topping -->
+
+            <div class="col-sm-3">  <!-- 2nd topping -->
+              <h4>2nd Topping</h4>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="2">Parmesan cheese
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="3">Mozzarella
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="3">BBQ lamb
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="3">Slice beef
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="3">Cod
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="3">Organic Chicken
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="2">Organic Egg
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="2">Fresh chopped kale
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="2">Pineapple
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="2">Garlic cloves
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="second" value="0" checked>None
+                </label>
+              </div>
+            </div>  <!-- end 2nd topping -->
+
+            <div class="col-sm-3">  <!-- 3rd topping -->
+              <h4>3rd Topping</h4>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="2">Mushroom
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="4">Special herb
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="5">King crab
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="5">Lobster
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="5">Oyster
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="2">Black olives
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="2">Jalapenos
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="2">Red onion
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="2">Avocado
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="2">Corn
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="third" value="0" checked>None
+                </label>
+              </div>
+            </div>  <!-- end 3rd topping -->
+          </div>
+          <hr>
+          <!-- end topping choices section -->
+          <div class="radio">
+            <h2>Size</h2>
+            <label class="radio-inline">
+              <input type="radio" name="size" value="4">Small
+            </label>
+
+            <label class="radio-inline">
+              <input type="radio" name="size" value="6">Medium
+            </label>
+
+            <label class="radio-inline">
+              <input type="radio" name="size" value="8">Large
+            </label>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="form-group col-sm-5">
+              <label for="name">Order Name</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-info">Place Your Order</button>
+
+        </form>
+      </div>
+      <hr>
+      <!-- end input section -->
+      <!-- output section -->
+      <div id="output">
+        <h2>Order Summary</h2>
+        
+      </div>
+      <!-- end output section -->
     </div>
   </body>
 </html>
