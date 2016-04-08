@@ -202,15 +202,15 @@
           <div class="radio">
             <h2>Size</h2>
             <label class="radio-inline">
-              <input type="radio" name="size" value="5">Small 8-inch
+              <input type="radio" name="size" value="small">Small 8-inch
             </label>
 
             <label class="radio-inline">
-              <input type="radio" name="size" value="7" checked>Medium 12-inch
+              <input type="radio" name="size" value="medium" checked>Medium 12-inch
             </label>
 
             <label class="radio-inline">
-              <input type="radio" name="size" value="9">Large 16-inch
+              <input type="radio" name="size" value="large">Large 16-inch
             </label>
           </div>
 
@@ -230,17 +230,23 @@
       <!-- output section -->
       <br>
       <hr>
-      <h3>Order list</h3>
-      <ul id="orderList">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Order list</h3>
+          <ul id="orderList">
 
-      </ul>
+          </ul>
+        </div>
 
-      <div id="output">
-        <h4>Order Total $ <span id="total"></span></h4>
-        <ul id="pizzaDetail">
+        <div id="output" class="col-sm-4">
+            <h3>Total $ <span id="total"></span></h3>
+            <h4>Name: <span id="orderName"></span></h4>
+            <ul id="pizzaDetail">
 
-        </ul>
+            </ul>
+        </div>
       </div>
+
       <!-- end output section -->
     </div>
   </body>
