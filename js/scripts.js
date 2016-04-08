@@ -26,8 +26,13 @@ $(document).ready(function(){
     var newOrder = new Pizza(inputTop1, inputTop2, inputTop3, inputSize, inputName);
     console.log(newOrder);
 
-    $("#total").text(newOrder.totalPrice());
-    $("#output").show();
+    $("ul#orderList").append("<li><span class='list'>" + newOrder.name +"</span></li>");
 
+    $(".list").last().click(function(){
+      $("#output").show();
+      $("#total").text(newOrder.totalPrice());
+
+    });
+    $("#name").val("");
   });
 });

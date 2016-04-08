@@ -9,7 +9,7 @@ h1 {
 }
 h2 {
   color: #994d00;
-  text-shadow: 2px 2px 3px #484848;
+  text-shadow: 2px 2px 4px #484848;
 }
 form h4 {
   color: #994d00;
@@ -33,4 +33,11 @@ button {
 #output {
   display: none;
   margin-left: 50px;
+}
+#orderList {
+  cursor: pointer;
+  color: #0000ff;
+}
+#orderList:hover {
+  text-decoration: underline;
 }
