@@ -1,4 +1,5 @@
 // business logic ---------------
+var toppings = [];
 function Pizza(top1, top2, top3, size, name) {
   this.top1 = top1;
   this.top2 = top2;
