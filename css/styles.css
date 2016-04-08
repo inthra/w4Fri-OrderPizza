@@ -15,7 +15,7 @@ form h4 {
   color: #994d00;
   text-shadow: 1px 1px 3px #484848;
 }
-#premium {
+h3, #premium {
   color: #cc0000;
   text-shadow: 1px 1px 3px #484848;
 }
@@ -32,11 +32,12 @@ button {
 }
 #output {
   display: none;
-  margin-left: 50px;
+  color: #663300;
 }
 #orderList {
   cursor: pointer;
-  color: #0000ff;
+  color: #009933;
+  font-size: 20px;
 }
 #orderList:hover {
   text-decoration: underline;
