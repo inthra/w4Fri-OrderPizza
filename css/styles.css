@@ -19,4 +19,5 @@ button {
 #output {
   display: none;
   margin-left: 50px;
+  background-color: gray;
 }

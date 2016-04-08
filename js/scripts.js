@@ -6,12 +6,11 @@ function Pizza(top1, top2, top3, size, name) {
   this.size = size;
   this.name = name;
 }
-
+  // prototype for calculating total price -----
 Pizza.prototype.totalPrice = function() {
   var total = this.top1 + this.top2 + this.top3 + this.size;
   return total;
 }
-
 
 // user interface logic ---------------
 $(document).ready(function(){
@@ -28,5 +27,6 @@ $(document).ready(function(){
 
     $("#total").text(newOrder.totalPrice());
     $("#output").show();
+
   });
 });
